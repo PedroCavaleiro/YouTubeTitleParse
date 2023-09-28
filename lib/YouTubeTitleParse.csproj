@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>YouTube Title Parser</Title>
+        <Authors>Pedro Cavaleiro</Authors>
+        <Description>Parse song &amp; artist names from YouTube video titles</Description>
+        <Copyright>Pedro Cavaleiro © 2023</Copyright>
+        <PackageProjectUrl>https://github.com/PedroCavaleiro/YouTubeTitleParse</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/PedroCavaleiro/YouTubeTitleParse/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/PedroCavaleiro/YouTubeTitleParse</RepositoryUrl>
+        <PackageTags>YouTube, Metadata, Song</PackageTags>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+    </PropertyGroup>
+
+</Project>

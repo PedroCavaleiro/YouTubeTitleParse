@@ -6,6 +6,6 @@ var title = Console.ReadLine();
 if (string.IsNullOrEmpty(title))
     Console.WriteLine("Enter a title to split");
 else {
-    var data = Parse.GetArtistTitle(title);
+    var data = title.GetArtistTitle();
     Console.WriteLine($"Song \"{data.Title}\" by {data.Artist ?? "Unknown"}");
 } 

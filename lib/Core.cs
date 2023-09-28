@@ -59,12 +59,7 @@ public static class Core {
         };
     }
 
-    public static ArtistTitle GetSongArtistTitle(string text, Options options) {
-        var before   = text.ExecBefore(options.Before);
-        var splitter = before.ExecSplitter(options.Split);
-        var after    = splitter.ExecAfter(options.After);
-
-        return after;
-    }
+    public static ArtistTitle GetSongArtistTitle(string text, Options options) =>
+        text.ExecBefore(options.Before).ExecSplitter(options.Split).ExecAfter(options.After);
 
 }

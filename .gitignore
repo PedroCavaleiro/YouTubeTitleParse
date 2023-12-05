@@ -1,0 +1,12 @@
+
+lib/.idea/
+
+lib/obj/
+
+cli/bin/
+
+cli/obj/
+
+cli/.idea/
+
+lib/bin/

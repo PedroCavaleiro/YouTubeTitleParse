@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -13,7 +12,9 @@
         <PackageLicenseUrl>https://raw.githubusercontent.com/PedroCavaleiro/YouTubeTitleParse/main/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/PedroCavaleiro/YouTubeTitleParse</RepositoryUrl>
         <PackageTags>YouTube, Metadata, Song</PackageTags>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
 </Project>

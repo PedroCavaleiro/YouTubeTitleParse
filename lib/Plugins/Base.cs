@@ -20,8 +20,8 @@ public static class Base {
         title = Regex.Replace(title, @"\(\s*\)",                     "");                          // Leftovers after e.g. (official video)
         title = Regex.Replace(title, @"\[\s*]",                      "");                          // Leftovers after e.g [1080p]
         title = Regex.Replace(title, @"【\s*】",                       "");                         // Leftovers after e.g【MV
-        title = Regex.Replace(title, """^(|.*\s)\"(.*)\"(\s.*|)$""", @"\2");                       // Artist - The new "Track title" featuring someone
-        title = Regex.Replace(title, @"^(|.*\s)'(.*)'(\s.*|)$",      @"\2");                       // 'Track title'
+        title = Regex.Replace(title, """^(|.*\s)\"(.*)\"(\s.*|)$""", "$2");                                  // Artist - The new "Track title" featuring someone
+        title = Regex.Replace(title, """^(|.*\s)'(.*)'(\s.*|)$""", "$2");                          // 'Track title'
         title = Regex.Replace(title, @"^[/\s,:;~\-–_\s\""]+",        "");                          // trim starting white chars and dash
         title = Regex.Replace(title, @"[/\s,:;~\-–_\s\""]+$",        "");                          // trim trailing white chars and dash
         return title;
